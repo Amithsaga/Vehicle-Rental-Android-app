@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/relativeLayout2"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:interphase="http://schemas.android.com/apk/res-auto">
+  <EditText android:id="@id/editTextEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88.0dp"
+            android:hint="Enter Phone Number"
+            android:inputType="phone"
+            interphase:layout_constraintTop_toTopOf="parent" />
+  <Button android:id="@id/buttonFetch"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="176.0dp"
+          android:text="Fetch Booking Details"
+          android:layout_marginStart="80.0dp"
+          interphase:layout_constraintStart_toStartOf="parent"
+          interphase:layout_constraintTop_toTopOf="parent" />
+  <TextView android:textSize="18.0sp"
+            android:id="@id/textViewBookingDetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48.0dp"
+            android:layout_marginStart="44.0dp"
+            interphase:layout_constraintStart_toStartOf="parent"
+            interphase:layout_constraintTop_toBottomOf="@id/buttonFetch" />
+  <Button android:id="@id/button4"
+          android:layout_width="163.0dp"
+          android:layout_height="55.0dp"
+          android:layout_marginTop="4.0dp"
+          android:text="Contact Us"
+          android:layout_marginStart="8.0dp"
+          interphase:layout_constraintStart_toStartOf="parent"
+          interphase:layout_constraintTop_toTopOf="parent" />
+  <TextView android:textSize="24.0sp"
+            android:textStyle="bold"
+            android:id="@id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dp"
+            android:text="Back"
+            android:layout_marginStart="290.0dp"
+            interphase:layout_constraintStart_toStartOf="parent"
+            interphase:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
